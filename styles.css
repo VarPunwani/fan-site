@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+font-family: impact;
+}
+
+label{
+    font-family: chalkduster;
+}
+
+nav{
+    background: blue;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+color: orange;
+font-size: 17px;
+line-height: 80px;
+padding: 0 100px;
+font-weight: bold;
+}
+
+nav ul{
+float: right;
+margin-right: 20px;
+
+
+}
+
+nav ul li{
+display: inline-block;
+line-height: 80px;
+margin: 0 5px;
+}
+
+nav ul li a{
+    color: lightblue;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+a.active,a:hover{
+    background: blue;
+    transition: .5s;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+
+}
+
+.fade-in-text{
+    font-family: impact;
+    font-size: 30px;
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
